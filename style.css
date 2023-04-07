@@ -33,3 +33,20 @@ body {
     grid-column: 2;
     grid-row: 2;
 }
+
+img {
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+
+svg {
+    height: 2rem;
+    cursor: pointer;
+}
+
+.sidebar .top div span svg {
+    fill: white;
+}
+
+
