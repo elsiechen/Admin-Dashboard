@@ -5,9 +5,13 @@
 
 /* google fonts */
 body {
-    font-family: 'Cinzel Decorative', cursive;
+    /* font-family: 'Cinzel Decorative', cursive; */
     font-family: 'Roboto Slab', serif;
-    font-family: 'Shantell Sans', cursive;
+    /* font-family: 'Shantell Sans', cursive; */
+}
+
+p {
+    font-family: 'Shantell Sans', cursive; 
 }
 
 .container {
@@ -19,6 +23,7 @@ body {
 
 .sidebar {
     background-color: #14b8a6;
+    font-family: 'Cinzel Decorative', cursive;
     grid-column: 1;
     grid-row: 1/3;
 }
