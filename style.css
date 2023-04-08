@@ -90,3 +90,53 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* header */
+.header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 1.5rem 1rem;
+    align-items: center;
+}
+
+.header .left form {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+
+button[type="submit"] {
+    border: none;
+    background-color: white;
+}
+
+input[type="search"] {
+    border-radius: 1rem;
+    border: none;
+    background-color: #E7E5E4;
+    padding: 0.5rem 1rem;
+}
+
+/* .right {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    justify-items: end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.right span {
+    justify-self: start;
+} */
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.right span {
+    font-weight: 900;
+}
