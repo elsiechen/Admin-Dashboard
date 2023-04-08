@@ -24,8 +24,29 @@ p {
 .sidebar {
     background-color: #14b8a6;
     font-family: 'Cinzel Decorative', cursive;
+    padding: 1.5rem 1rem;
+    color: white;
     grid-column: 1;
     grid-row: 1/3;
+    font-size: 1.2rem;
+}
+
+.sidebar .top{
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar .middle {
+    margin-bottom: 2rem;
+}
+
+.sidebar .top div a,
+.sidebar .middle div a,
+.sidebar .bottom div a {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    margin-bottom: 0.5rem;
 }
 
 .header {
@@ -50,8 +71,22 @@ svg {
     cursor: pointer;
 }
 
-.sidebar .top div span svg {
+.sidebar .top div a svg,
+.sidebar .middle div a svg,
+.sidebar .bottom div a svg {
     fill: white;
 }
 
+.sidebar .top div a svg {
+    height: 3rem;
+}
 
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
