@@ -192,19 +192,56 @@ input[type="search"] {
     grid-row: 2;
 }
 
+.sub-head {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
 .wrapper1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
 }
 
 .card {
-    display: grid;
-    grid-template-rows: 1fr 6fr 2fr 1fr;
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5%;
+    padding: 1rem;
+    height: 23rem;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+.card-head {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card > p {
+    margin-top: 1rem;
+    flex: 1 1 auto;
+}
+
+.card-footer {
+    align-self: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .wrapper1 .card .card-content img {
-    width: 280px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     border-radius: 5%;
+}
+
+.card-footer svg:hover {
+    fill: #14b8a6;
+}
+
+/* change png color when hovered */
+.card-footer img:hover {
+    filter: saturate(500%) contrast(100%) brightness(50%) 
+      invert(80%) sepia(50%) hue-rotate(120deg); 
 }
