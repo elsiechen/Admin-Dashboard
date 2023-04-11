@@ -1,6 +1,8 @@
 # Admin-Dashboard
 This is a full dashboard design using grid and flexbox for layout work.
 
+!(icons/dashboard.png)
+
 ## Table of Contents
 - Demo
 - Technologies Used
