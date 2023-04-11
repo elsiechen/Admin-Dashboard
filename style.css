@@ -154,19 +154,20 @@ input[type="search"] {
 
 .right2 button {
     background-color: rgba(20, 184, 166, 0.7);
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     font-weight: 500;
     color: white;
-    width: 7rem;
+    width: 5rem;
     border-radius: 4rem;
     border: none;
-
+    filter: drop-shadow(4px 4px 2px gray);
 }
+
+
 
 .right2 button:hover{
     cursor: pointer;
     background-color: rgba(20, 184, 166, 1);;
-
 }
 
 /* main content */
