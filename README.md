@@ -19,11 +19,8 @@ Check out the [**live**](https://elsiechen.github.io/Admin-Dashboard/
 ## Credits
 - The Odin Project: [Admin Dashboard](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
 
-- Icon by [Material Design Icons]
-(https://pictogrammers.com/library/mdi/)
+- Icon by [Material Design Icons](https://pictogrammers.com/library/mdi/)
 
-- Fonts from [Google fonts]
-(https://fonts.google.com/)
+- Fonts from [Google fonts](https://fonts.google.com/)
 
-- Character avatar icons from [pngtree]
-(https://pngtree.com/so/character-avatars-icons)
+- Character avatar icons from [pngtree](https://pngtree.com/so/character-avatars-icons)
